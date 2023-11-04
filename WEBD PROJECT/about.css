@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("wallpaper.png");
+}
+
+.cards {
+    width: 19%;
+    background-color: grey;
+    border-radius: 5px;
+    margin: 42px;
+    display: inline-block;
+}
+
+.image img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.title {
+    text-align: center;
+    padding: 5px;
+}
+
+.des {
+    text-align: center;
+    padding: 4px;
+}
+
+.text {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    padding-top: 30px;
+    text-shadow: 1px 1px;
+    cursor: pointer;
+}
+
+.title :hover {
+    transform: scale(1.2);
+    color: blue;
+}
+
+.title {
+    cursor: pointer;
+}
